@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;600;700&display=swap" 
+    rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/db6765cd2e.js" crossorigin="anonymous"></script>
+    <title>Home</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="navLogo">
+                <span class="logo-main">Liow's</span><span class="logo-dot">Group</span>
+            </a>
+
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contributions.html" class="nav-link">Team</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a href="login.html" class="login-button"><i class="fa-solid fa-user"></i>&nbsp; Login</button></a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+    <section class="banner">
+        <div class="banner-text">
+            <h1>Liow's Group</h1>
+            <p>This is our group <br>Lishyan, Yi Xin & Jenelle Tang</p>
+            <a href="#team" class="wht-btn">Learn More about Us</a> <!--  Make it connect to anchor -->
+        </div>
+    </section>
+
+    <section class="intro">
+        <h1>Welcome to Our Portfolio</h1>
+
+        <p>
+        This website highlights the projects, skills, and experiences of our team.
+        Take a look at what we’ve built, the technologies we work with, and the problems we love solving.
+        </p>
+
+        <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/fumJ7uUlEdk?si=xSPVTvXk6Ys8Kmrz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
+    </section>
+
+    
+    <!-- Team Intro Cards Section -->
+    <section class="team-section" id="team">
+    <h2 class="team-title">Meet Our Team</h2>
+
+    <div class="team-grid">
+        <!-- Card 1 -->
+        <div class="team-card">
+        <img src="images/lis-image.jpeg" alt="Lis Liow" class="team-img" />
+        <h3 class="team-name">Lis Liow</h3>
+        <p class="team-role">Lead Developer</p>
+        <p class="team-desc">
+            Designed the website structure and navigation using HTML to ensure consistency and usability.
+        </p>
+        <a href="lis-portfolio.html" class="team-btn">View Profile</a>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="team-card">
+        <img src="images/yixi-image.jpg" alt="Moo Yi Xin" class="team-img" />
+        <h3 class="team-name">Moo Yi Xin</h3>
+        <p class="team-role">UI/UX Designer</p>
+        <p class="team-desc">
+            Implemented custom CSS styling and responsive layouts to ensure compatabilty across devices.
+        </p>
+        <a href="yixin-portfolio.html" class="team-btn">View Profile</a>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="team-card">
+        <img src="images/jenelle-image.jpg" alt="Jenelle Tang" class="team-img" />
+        <h3 class="team-name">Jenelle Tang</h3>
+        <p class="team-role">JavaScript Developer</p>
+        <p class="team-desc">
+            Developed contact form validation and simulated its functionality using JavaScript.
+        </p>
+        <a href="jenelle-portfolio.html" class="team-btn">View Profile</a>
+        </div>
+    </div>
+    </section>
+
+    <section class="ctcus-main">
+        <h1>Feel free to reach out for more information?</h1>
+        <a href="contact.html" class="wht-btn">CONTACT US</a>
+    </section>
+
+    <section class="footer">
+        <h4>WEB2014 WEB FUNDAMENTALS</h4>
+        <p>Copyright: @ 2025 Porfolio Website | Developed for WEB2014 - Web Fundamentals</p>
+    </section>
+
+    <script src="functions.js"></script>
+</body>
+</html>
